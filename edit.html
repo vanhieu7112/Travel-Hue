@@ -1,0 +1,866 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Trang Chủ</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="shorcut icon" type="image/x-ico" href="img/logo.png">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet"  href="js/bootstrap.min.css"></script>
+	<style type="text/css">
+	
+	.i{
+        
+       /* border: solid 1px #e8e8e8;*/
+        box-shadow: 0 0 10px 5px #efefef;
+        -moz-box-sizing: 0 0 10px 5px #efefef;
+        -webkit-box-shadow: 0 0 10px 5px #efefef;
+        
+        overflow: auto;
+       text-align: left;
+        
+        }
+
+
+     .i:hover{
+    
+             transform: scale(1.2);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+		.affix {
+      top: 0;
+      width: 100%;
+  }
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+  /*#head{
+			
+			margin-left: 75px;
+			margin-right:75px;
+	
+		}*/
+	.container-max{
+			
+			width: 1348px;
+			height: auto;
+			overflow: hidden;
+			margin-bottom: 19px;
+		}
+
+
+
+#sidebar{
+	margin-left: -15px;
+	float: left;  
+	height:400px; 
+	width:160px; 
+/*	background-color: black;*/
+	padding-left: 10px;
+	
+
+}
+.container{
+
+	margin-top: -20px;
+}
+#tinmoi{
+	margin-left: 5px;
+	margin-top: 8px;
+	margin-bottom: 1px;
+	float: left;
+	
+    /* border: 1px solid #cdcdcd;*/
+}
+#marquee {
+	z-index: 1;
+	width: 850px;
+	min-height: 20px;
+	float: left;
+	font-size: 15px;
+     margin-right: 50px;
+     margin-bottom: 2px;
+     margin-top: 8px;
+     padding-top: 2px;
+     position: relative;
+     bottom: 2px;
+     padding-left: 5px;
+/*     border: 1px solid #cdcdcd;*/
+}
+#marquee a{
+	text-decoration: none;
+ 	list-style-type: none;
+}
+#marquee a:hover {
+	color: #330033;
+}
+
+#right{
+	z-index: 1;
+	float:left;
+
+}
+#slide{
+	z-index: 1;
+	float:left;
+	
+
+
+}
+#content{
+	z-index: 2;
+/*	float: left;
+
+	margin-left: -15px;*/
+	margin-top: 1px;
+	/*border: 1px solid #cdcdcd;*/
+
+}
+
+	#widget-links ul {
+
+	
+    list-style-type: none;
+
+   position: relative;
+   left: 3px;
+   top: 2px;
+    width: 160px;
+
+    background-color:#e6e6e6;
+}
+
+#widget-links li a {
+	
+    display: block;
+    color: #330033;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+#widget-links li a:hover {
+    background-color: #330033;
+    color: #fff;
+    text-decoration: none;
+}
+.affix {
+    position: fixed;
+    z-index: 100;
+}
+
+
+ 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+.footer1 { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; }
+.footerleft { margin-top:50px; padding:0 36px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p i { width:20px; color:#999;}
+
+
+.paddingtop-bottom {  margin-top:50px;}
+.footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ 
+ 
+
+ 
+ .icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
+ .icon-ul li { line-height:75px; width:100%; float:left;}
+ .icon { float:left; margin-right:5px;}
+ 
+ 
+ .copyright { min-height:40px; background-color:#000000;}
+ .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;} 
+
+/*body{
+	background: url(img/3201.jpg) 
+	repeat top right ;
+}*/
+  
+.dropdown-menu > li.kopie > a {
+    padding-left:5px;
+}
+ 
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+   top:0;left:100%;
+   margin-top:-6px;margin-left:-1px;
+   -webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;
+ }
+  
+.dropdown-submenu > a:after {
+  border-color: transparent transparent transparent #333;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  content: " ";
+  display: block;
+  float: right;  
+  height: 0;     
+  margin-right: -10px;
+  margin-top: 5px;
+  width: 0;
+}
+ 
+.dropdown-submenu:hover>a:after {
+    border-left-color:#555;
+ }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
+  text-decoration: underline;
+}  
+  
+@media (max-width: 767px) {
+  .navbar-nav  {
+     display: inline;
+  }
+/*  .navbar-default .navbar-brand {
+    display: inline;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+*/  .navbar-default .navbar-nav .dropdown-menu > li > a {
+    color: red;
+    background-color: #ccc;
+    border-radius: 4px;
+    margin-top: 2px;   
+  }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+     color: #333;
+   }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+     background-color: #ccc;
+   }
+
+   .navbar-nav .open .dropdown-menu {
+    /* border-bottom: 1px solid white; */
+     border-radius: 0;
+   }
+  .dropdown-menu {
+      padding-left: 10px;
+  }
+  .dropdown-menu .dropdown-menu {
+      padding-left: 20px;
+   }
+   .dropdown-menu .dropdown-menu .dropdown-menu {
+      padding-left: 30px;
+   }
+   li.dropdown.open {
+    border: 0px solid red;
+   }
+
+}
+ 
+@media (min-width: 768px) {
+  ul.nav li:hover > ul.dropdown-menu {
+    display: block;
+  }
+  #navbar {
+    text-align: center;
+  }
+}  
+
+
+
+	</style>
+
+</head>
+<body>
+
+	<header class="container-fluid container-max" style="height:202px; margin-top: 0px; ">
+  		<div id="head">
+			<a href="edit.html" >	<img class="img-circle" align="left" width="213px" height="202px" src="img/logo.png"></a>							
+				<img  class="img-rounded"  align="right" height="202px" width="83.7%" src="img/banner1.png">
+			</div>
+	</header>
+<div class="container container-max" style=" margin-bottom:0px;">
+<div class="row">
+	<nav class="navbar navbar-inverse col-md-12 col-sm-12 col-xs-12" style="background:#330033;">
+	 
+	    <ul class="nav navbar-nav">
+	    <!--   <li class="active"><a href="edit.html">Trang Chủ</a></li> -->
+	      <li><a href="gioithieu.html">Giới Thiệu</a></li>
+	      <li class="dropdown"><a  href="langtam.html">Lăng Tẩm<span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Minh Mạng</a></li>
+	          <li><a href="#">Tự Đức</a></li>
+	          <li><a href="#">Khải Định</a></li>
+	        </ul>
+	      </li>
+	      <li class="dropdown"><a href="kinhthanh.html">Kinh Thành<span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Đại Nội</a></li>
+	          <li><a href="#">Sông Hương</a></li>
+	          <li><a href="#">Cầu Trường Tiền</a></li>
+	          <li><a href="#">Chợ Đông Ba</a></li>
+	        </ul>
+	      </li>
+	        <li class="dropdown"><a  href="amthuc.html">Ẩm Thực<span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Bún Bò Huế</a></li>
+	          <li><a href="#">Cơm Hến</a></li>
+	          <li><a href="#">Chè Huế</a></li>
+	          <li><a href="#">Bánh Huế</a></li>
+	          <li><a href="#">Món Chay</a></li>
+	        </ul>
+	      </li>
+	      <li class="dropdown"><a  href="denchua.html">Đền Chùa<span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Chùa Thiên Mụ</a></li>
+	          <li><a href="#">Chùa Từ Đàm</a></li>
+	          <li><a href="#">Chùa Thiên Minh</a></li>
+	          <li><a href="#">Chùa Vạn Phước Tự</a></li>
+	        </ul>
+	      </li>
+	      <li class="dropdown"><a  href="baibien.html">Bãi Biển<span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Lăng Cô</a></li>
+	          <li><a href="#">Hải Dương</a></li>
+	          <li><a href="#">Thuận An</a></li>
+	        </ul>
+	      </li>
+	      
+	    </ul>
+	    <form class="navbar-form navbar-right">
+	      <div class="input-group">
+	        <input type="text" class="form-control" placeholder="Tìm Kiếm">
+	        <div class="input-group-btn">
+	          <button class="btn btn-default" type="submit">
+	            <i class="glyphicon glyphicon-search"></i>
+	          </button>
+	        </div>
+	      </div>
+	    </form>
+	</nav>
+	
+	</div>
+
+	<div class="row" style="position: relative;top:-21px;">
+		<div  id="sidebar" class="col-md-3 col-sm-3 col-xs-3 " style="margin-left: 50px;margin-right: 10px;">
+			 <div id="widget-links">
+				 <ul class="list-unstyled">
+				 <li><a href="#" ><font size="4px">Khám Phá</font></a></li>
+				 <li><a href="#">Văn Hóa</a></li>
+				 <li><a href="#">Lịch Sử</a></li>
+				 <li><a href="#">Lễ Hội</a></li>
+				 <li><a href="#">Di Sản</a></li>
+				 <li><a href="#">Festival</a></li>
+	    		 <li><a href="#">Đầm Phá</a></li>
+	    		 <li><a href="#">Rừng Đước</a></li>
+	    		 <li><a href="#">Khu Giải Trí</a></li>
+    			 <li><a href="#">Bản Đồ Du Lịch</a></li>
+    			 <li><a href="#">Kí Sự Du Lịch</a></li>
+				 </ul>
+				 </div>
+			</div>
+	<!-- <div align="left" id="slider" style=" margin-left: 200px;	 height:600px; width:900px; border:1px solid #cdcdcd;">
+	 	<div id="1" style="float:left;height: 300px; margin-right:10px; width: 400px; border:1px solid #cdcdcd;">	 		
+	 	</div>
+	 	<div id="2" style="float:left;height: 300px; width: 400px; border:1px solid #cdcdcd;"> 		
+	 	</div>
+	</div> -->
+		<div id="right" class="col-md-10 col-sm-10 col-xs-10">
+			<div id="tinmoi">
+				<b><u>Tin Mới:</u></b>
+			</div>
+			<div id="marquee">
+				<marquee onmouseover="this.stop()" onmouseout="this.start()"  behavior="scroll" direction="right" loop="1000" scrollamount="3" 
+	    				scrolldelay="3" color="#3B240B">
+	    				<a href="#">Nhật Hoàng và Hoàng Hậu thưởng thức Nhã Nhạc Cung Đình Huế</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    				<a href="#">Đại Nội sẽ mở cửa tham quan về đêm từ ngày 22/4</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    				<a href="#">Lễ tế trời đất vào mùa xuân của các vua triều nguyễn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    				<a href="#">Di sản Huế đón lượt khách thứ 2,5 triệu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    				<a href="#">Nhật Hoàng và Hoàng Hậu thưởng thức Nhã Nhạc Cung Đình Huế</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    				<a href="#">Đại Nội sẽ mở cửa tham quan về đêm từ ngày 22/4</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    				<a href="#">Lễ tế trời đất vào mùa xuân của các vua triều nguyễn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    				<a href="#">Di sản Huế đón lượt khách thứ 2,5 triệu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    		</marquee>		
+			</div>
+
+			<div id="slide">
+				<div class="section-white">
+				  <div class="container container1">
+
+				    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				      <!-- Indicators -->
+				      <ol class="carousel-indicators">
+				        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+				      </ol>
+
+				      <!-- Wrapper for slides -->
+				      <div class="carousel-inner">
+				        <div class="item active">
+				          <img src="img/image100.jpg" alt="">
+				          <div class="carousel-caption">
+				            <h3>Cầu Tràng Tiền</h3>
+				          </div>
+				        </div>
+				        <div class="item">
+				          <img src="img/image3.jpg" alt="">
+				          <div class="carousel-caption">
+				            <h3>Phá Tam Giang</h3>
+				          </div>
+				        </div>
+				        <div class="item">
+				          <img  src="img/image106.jpg" alt="">
+				          <div class="carousel-caption">
+				            <h3>Chùa Thiên Mụ</h3>
+				          </div>
+				        </div>
+				         <div class="item">
+				          <img   src="img/image107.jpg" height="400px" alt="">
+				          <div class="carousel-caption">
+				            <h3>Chùa Vạn Phước Tự</h3>
+				          </div>
+				        </div>
+				         <div class="item">
+				          <img  src="img/image104.jpg" alt="">
+				          <div class="carousel-caption">
+				            <h3>Sông Hương - Núi Ngự</h3>
+				          </div>
+				        </div>
+				        <div class="item">
+				          <img  src="img/image11.jpg" alt="">
+				          <div class="carousel-caption">
+				            <h3>Cầu Ngói Thanh Toàn</h3>
+				          </div>
+				        </div>
+				      </div>
+
+				      <!-- Controls -->
+				      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+				        <span class="glyphicon glyphicon-chevron-left"></span>
+				      </a>
+				      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+				        <span class="glyphicon glyphicon-chevron-right"></span>
+				      </a>
+				    </div>
+
+				  </div>
+				</div>
+
+
+			</div>			
+		</div>		
+		</div>		
+		<style type="text/css">
+			.panel-heading a{
+				    color: #a94442;
+			}
+		</style>	
+		<div id="content" class="container-fluid" style="position: relative;top:-8px; ">	
+				
+				  <div class="row" >
+  		 		 <div class="col-sm-4" >
+   		 			 <div class="panel panel-danger" >
+   		  		   <div class="panel-heading"><a href="news1.html"><b>5 trải nghiệm thú vị khiến bạn thay đổi suy nghĩ đến du lịch Huế chẳng có gì vui</b></a>
+   		  		   </div>
+   		  		   <div class="panel-footer">18/04/2017 &nbsp; / &nbsp; 33456 VIEWS</div>
+    				    <div class="panel-body"><img  class="img-rounded i" src="img/new1.png"  style="width:100%" alt="Image"></div>
+   		 		    <div class="panel-footer">Trong suy nghĩ của nhiều người, Huế là thành phố buồn, ít hoạt động vui chơi. Tuy nhiên, bạn sẽ thay đổi suy nghĩ nếu trải nghiệm hết những điều thú vị này!</div>
+  				    </div>
+  				  </div>
+ 				   <div class="col-sm-4"> 
+ 				     <div class="panel panel-danger">
+  		 		     <div class="panel-heading"><a href="news2.html"><b>Du lịch Huế dịp lễ 30/4 chớ bỏ qua “Lễ hội khinh khí cầu quốc tế 2017</b></a></div>
+  		 		     <div class="panel-footer">18/04/2017 &nbsp; / &nbsp; 26748 VIEWS</div>
+   				     <div class="panel-body"><img class="img-rounded i" src="img/new2.png" style="width:100%"  alt="Image"></div>
+   		   		  <div class="panel-footer">Đến du lịch Huế vào dịp lễ 30/4 này, bạn sẽ có dịp hút mắt với “Lễ hội khinh khí cầu quốc tế Huế 2017” diễn ra từ 28/4 – 1/5.</div>
+   				   </div>
+					</div>
+    				<div class="col-sm-4" > 
+    				  <div class="panel panel-danger">
+      				  <div class="panel-heading"><a href="news6.html"><b>Đại nội Huế chính thức đón du khách tham quan vào ban đêm</b></a></div>
+      				  	<div class="panel-footer">24/03/2017 &nbsp; / &nbsp; 30296 VIEWS</div>
+    				    <div class="panel-body"><img class="img-rounded i" src="img/new3.png"  style="width:100%" alt="Image"></div>
+    				    <div class="panel-footer">Sản phẩm du lịch hấp dẫn bắt đầu từ ngày 24/3 được kỳ vọng sẽ kéo dài thời gian lưu trú của du khách tại cố đô Huế.</div>
+   				   </div>
+  				  </div>
+  				</div>
+			   
+				  <div class="row" >
+				    <div class="col-sm-4">
+				      <div class="panel panel-danger">
+				        <div class="panel-heading"><a href="news3.html"><b>Đại Nội – Điểm check-in không thể thiếu khi du lịch Huế</b></a></div>
+				        <div class="panel-footer">09/01/2017 &nbsp;/ &nbsp; 67020 VIEWS</div>
+				        <div class="panel-body"><img class="img-rounded i" src="img/new4.png " style="width:100%" alt="Image"></div>
+		 		       <div class="panel-footer">Không chỉ được các du khách nước ngoài yêu thích khi đến Việt Nam, Đại Nội còn là nơi để các bạn trẻ đến tìm hiểu lịch sử về các đời vua Nguyễn. Với kiến trúc đặc biệt của hoàng…</div>
+		 		     </div>
+		    		</div>
+		   		 <div class="col-sm-4"> 
+		    		  <div class="panel panel-danger">
+		    		    <div class="panel-heading"><a href="news4.html"><b>Cố đô Huế, nơi dừng chân của những kẻ mộng mơ</b></a></div>
+		    		    <div class="panel-footer">08/04/2017 &nbsp;/ &nbsp; 37502 VIEWS</div>
+		   			  <div class="panel-body"><img class="img-rounded i" src="img/new5.png "  style="width:100%" alt="Image"></div>
+		     		   <div class="panel-footer">Cố đô Huế với tình yêu dịu ngọt khiến cho những kẻ mộng mơ cũng lạc bước ở 5 điểm dừng chân đẹp nao lòng. Đến với Huế, để được phiêu diêu trong chút lãng đãng nơi cố đô.</div>
+		     		 </div>
+		   		 </div>
+		  		  <div class="col-sm-4 "> 
+		  		    <div class="panel panel-danger">
+		  		      <div class="panel-heading"><a href="news5.html"><b>Tận hưởng thiên đường biệt lập tại khu nghỉ dưỡng Angsana Lăng Cô Huế</b></a></div>
+		  		      <div class="panel-footer">10/02/2017 &nbsp;/ &nbsp; 51458 VIEWS</div>
+		  		      <div class="panel-body"><img class="img-rounded i" src="img/new6.png"  style="width:100%" alt="Image"></div>
+		  		      <div class="panel-footer">Với gói nghỉ dưỡng tại Angsana Lăng Cô Huế, ngoài vé máy bay khứ hồi và 2 đêm tại phòng Garden Balcony Grand, bạn còn được đưa đón miễn phí từ sân bay Đà Nẵng,xe tham quan Huế</div>
+		 		     </div>
+				    </div>
+				  </div>
+				  <div class="row"  >
+				    <div class="col-sm-4">
+				      <div class="panel panel-danger">
+				        <div class="panel-heading"><a href="news7.html"><b>Hà Nội và Huế về đêm qua ống kính nhiếp ảnh gia Pháp</b></a></div>
+				        <div class="panel-footer">30/04/2016 &nbsp;/ &nbsp; 57898 VIEWS</div>
+				        <div class="panel-body"><img class="img-rounded i" src="img/new7.png" style="width:100%" alt="Image"></div>
+		 		       <div class="panel-footer">Với chiếc máy ảnh kỹ thuật số, Sebastien Laval, nhiếp ảnh gia nổi tiếng người Pháp đã ghi lại hình ảnh về đêm chân thật ở hai trung tâm du lịch của Việt Nam.</div>
+		 		     </div>
+		    		</div>
+		   		 <div class="col-sm-4 "> 
+		    		  <div class="panel panel-danger">
+		    		    <div class="panel-heading"><a href="news8.html"><b>10 điểm dừng chân tuyệt đẹp không thể bỏ qua khi du lịch Huế</b></a></div>
+		    		    <div class="panel-footer">04/03//2017 &nbsp;/ &nbsp; 268143 VIEWS</div>
+		   			  <div class="panel-body"><img class="img-rounded i" src="img/new8.png"  style="width:100%" alt="Image"></div>
+		     		   <div class="panel-footer">Cố đô Huế với tình yêu dịu ngọt khiến cho những kẻ mộng mơ cũng lạc bước ở 5 điểm dừng chân đẹp nao lòng. Đến với Huế, để được phiêu diêu trong chút lãng đãng nơi cố đô.</div>
+		     		 </div>
+		   		 </div>
+		  		  <div class="col-sm-4 "> 
+		  		    <div class="panel panel-danger">
+		  		      <div class="panel-heading"><b>Vedana Lagoon Resort và Spa Huế – Quên đời bên phá Tam Giang</b></div>
+		  		      <div class="panel-footer">10/02/2017 &nbsp;/ &nbsp; 86244 VIEWS</div>
+		  		      <div class="panel-body"><img class="img-rounded i" src="img/new9.png"  style="width:100%" alt="Image"></div>
+		  		      <div class="panel-footer">Thiên đường, đó là từ mà rất nhiều du khách từng đến Vedana Lagoon Resort & Spa Huế miêu tả khi nói về khu nghỉ dưỡng này.</div>
+		 		     </div>
+				    </div>
+				  </div>
+				  <div class="row"  >
+				    <div class="col-sm-4 ">
+				      <div class="panel panel-danger">
+				        <div class="panel-heading"><b>Du lịch Huế ghé vương quốc hàu Lập An</b></div>
+				        <div class="panel-footer">24/1/2017 &nbsp;/ &nbsp; 57898 VIEWS</div>
+				        <div class="panel-body"><img class="img-rounded i" src="img/new10.png" style="width:100%" alt="Image"></div>
+		 		       <div class="panel-footer">Đầm Lập An không chỉ mang vẻ đẹp say đắm lòng người mà còn được thiên nhiên ban tặng loại hàu béo ngậy chẳng nơi nào sánh kịp.</div>
+		 		     </div>
+		    		</div>
+		   		 <div class="col-sm-4"> 
+		    		  <div class="panel panel-danger">
+		    		    <div class="panel-heading"><b>Du lịch Huế thưởng thức các món ăn vặt ở chợ Đông Ba</b></div>
+		    		    <div class="panel-footer">30/1/2017 &nbsp;/ &nbsp; 141524 VIEWS</div>
+		   			  <div class="panel-body"><img class="img-rounded i" src="img/new11.png"  style="width:100%" alt="Image"></div>
+		     		   <div class="panel-footer">Chợ Đông Ba là một địa điểm tham quan quen thuộc đối với du khách khi đến Huế. Du khách không chỉ đến đây để mua sắm mà còn thưởng thức các món ăn ngon.</div>
+		     		 </div>
+		   		 </div>
+		  		  <div class="col-sm-4 "> 
+		  		    <div class="panel panel-danger">
+		  		      <div class="panel-heading"><b>Du lịch Huế và những điều bạn sẽ nhớ khi rời xa</b></div>
+		  		      <div class="panel-footer">16/11/2016 &nbsp;/ &nbsp; 86244 VIEWS</div>
+		  		      <div class="panel-body"><img class="img-rounded i" src="img/new12.png"  style="width:100%" alt="Image"></div>
+		  		      <div class="panel-footer">“Đã đôi lần đến với Huế mộng mơ. Tôi ôm ấp một tình yêu dịu ngọt. Vẻ đẹp Huế chẳng nơi nào có được, nét dịu dàng pha lẫn trầm tư. Tình yêu như chiếc nón bài thơ từ giọng nói âm thầm…</div>
+		 		     </div>
+				    </div>
+				  </div>
+
+				  <div class="row text-center" style="margin-left:5px; ">
+			      <div class="col-sm-3 col-md-3 col-xs-3">
+			        <div class="thumbnail">
+			          <img class="img-rounded i" src="img/news1.png" alt="Paris" width="300px" height="200px" style="height:200px;">
+			          <p><strong>8 bãi biển đẹp ở Huế</strong></p>
+			          <p>16/1/2017 &nbsp;/ &nbsp; 86244 VIEWS</p>
+			        </div>
+			      </div>
+			      <div class="col-sm-3 col-md-3 col-xs-3">
+			        <div class="thumbnail">
+			          <img class="img-rounded i" src="img/news2.png" alt="New York" style="height:200px;">
+			          <p><strong>24h phiêu lãng tại xứ Huế thơ mộng</strong></p>
+			          <p>16/11/2016 &nbsp;/ &nbsp; 110244 VIEWS</p>
+			        </div>
+			      </div>
+			      <div class="col-sm-3 col-md-3 col-xs-3">
+			        <div class="thumbnail">
+			          <img class="img-rounded i" src="img/news3.png" alt="San Francisco" style="height:200px;">
+			          <p><strong>Liên hoan Ẩm thực quốc tế – Huế</strong></p>
+			          <p>14/01/2017	&nbsp;/ &nbsp;44989 VIEWS</p>			
+			        </div>
+			      </div>
+			      <div class="col-sm-3 col-md-3 col-xs-3">
+			        <div class="thumbnail">
+			          <img class="img-rounded i" src="img/news4.png" alt="San Francisco" style="height:200px;">
+			          <p><strong>Lăng mộ của vua có 103 bà vợ </strong></p>
+			          <p>25/09/2016	&nbsp;/ &nbsp; 67261 VIEWS</p>			
+			        </div>
+			      </div>
+			    </div>
+				  
+					<h3>Khám Phá Bản Đồ Du Lịch</h3>
+
+							<div id="googleMap" style="width:100%;height:400px;"></div>
+
+							<script>
+							function myMap() {
+							var mapProp= {
+							    center:new google.maps.LatLng(16.468247, 107.578777),
+							    zoom:12,scrollwheel:false, draggable:false, 
+							};
+							var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+							}
+							</script>
+
+							<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlREcISF7pdsHnjuwwYV2_idD9B4zB1S0&callback=myMap"></script>
+	
+
+    <div class="row">
+    <div id="main">
+
+    <script type="text/javascript" src="js/jquery.cycle2.js"></script>
+    <script src="js/jquery.cycle2.carousel.js"></script>
+    <script>$.fn.cycle.defaults.autoSelector = '.slideshow';</script>
+
+    <style>
+    .slideshow { margin: auto; }
+    .slideshow img {  width: 200px;height: auto;}
+    div.responsive img { width: auto; height: auto; }
+    .cycle-pager { position: static; margin-top: 5px; }
+    div.vertical { width: 100px; }
+
+       .img{
+        
+        border: solid 1px #e8e8e8;
+        box-shadow: 0 0 10px 5px #efefef;
+        -moz-box-sizing: 0 0 10px 5px #efefef;
+        -webkit-box-shadow: 0 0 10px 5px #efefef;
+        
+        overflow: auto;
+       text-align: left;
+        margin:10px;
+        }
+
+
+     .img:hover{
+    
+             transform: scale(1.2);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+        img.im {
+  cursor: pointer;
+  transition: 0.3s;
+}
+img.im:hover {
+  opacity: 0.7;
+}
+.im {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+.im img {
+  margin: auto;
+  display: block;
+  width: 50%;
+  max-width: 50%;
+  /*position: relative;  top :100px;*/
+  margin-top: 100px;
+}
+.im div {
+  margin: auto;
+  display: block;
+  width: 50%;
+  max-width: 200px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px;
+    height: 150px;
+}
+.im img, .im div {
+  animation: zoom 0.6s;
+}
+.im span {
+  position: absolute;
+  top: 85px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .im img {
+    width: 50%;
+  }
+}
+@keyframes zoom {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+        </style>
+        <div class="slideshow" 
+            data-cycle-fx=carousel
+            data-cycle-timeout =1000
+
+            data-cycle-carousel-visible=6 style="margin-top:20px;" >
+            <img  class="im img "   src="img/angsana-hue-ivivu-14.jpg" alt="Trải nghiệm ở Lăng Cô"> 
+            <img  class="im img " src="img/dam-lap-an-ivivu.jpg" alt="Đầm Lập An">
+             <img  class="im img " src="img/Du-lich-Hue-dip-le-30-4cho-bo-qua-Le-hoi-khinh-khi-cau-quoc-te-2017-ivivu-4.jpg" alt="Lễ hội khinh khí cầu quốc tế" >
+                <img  class="im img" src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-10.jpg" alt="Huế về đêm qua ống kính nhiếp ảnh gia Pháp" >
+            <img  class="im img" src="img/dai-noi-hue-ivivu-1024x627.jpg" alt="Đại Nội" width="105%">
+             <img  class="im img" src="img/song-huong-nui-ngu-ivivu.jpg" alt="Sông Hương núi Ngự">
+                <img  class="im img" src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-12.jpg" alt="Huế về đêm qua ống kính nhiếp ảnh gia Pháp">
+            <img  class="im img" src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-11.jpg" alt="Bên bờ sông Hương">
+             <img  class="im img" src="img/du-lich-hue-ivivu.com-9.jpg" alt="Phá Tam Giang">
+            <img  class="im img" src="img/angsana-hue-ivivu-24.jpg" alt="Sân Golf Angasana Lăng Cô Huế" >
+            <img  class="im img" src="img/angsana-hue-ivivu-10.jpg" alt="Khu nghỉ dưỡng Angasana Lăng Cô Huế" >
+             <img  class="im img" src="img/angsana-hue-ivivu-11.jpg" alt="Trải nghiệm vui chơi ở biển Lăng Cô" >
+        <script type="text/javascript">
+    $('img.im').each(function() {
+        var modal = $('<div class="im"><span>&times;</span><img /><div></div></div>');
+        modal.find('img').attr('src', $(this).attr('src'));
+        if($(this).attr('alt'))
+          modal.find('div').text($(this).attr('alt'));
+        $(this).after(modal);
+        modal = $(this).next();
+        $(this).click(function(event) {
+          modal.show(300);
+          modal.find('span').show(0.3);
+        });
+        modal.find('span').click(function(event) {
+          modal.hide(300);
+        });
+      });
+      $(document).keyup(function(event) {
+        if(event.which==27)
+          $('.im>span').click();
+      });
+    </script>
+    </div>
+    </div>
+</div>
+
+				  		<!-- <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet"> -->
+<!--footer start from here-->
+<div class="footer1" style="margin-top:30px; position: relative; bottom:-9px;">
+  <div class="container">
+    <div class="row"  style="margin-left:5px; ">
+      <div class="col-md-4 col-sm-6 footerleft ">
+        <div class="logofooter"> <img class="img-circle" align="left" width="113px" height="102px" src="img/logo.png" style="margin-right:2px"></div>
+        <p>Du lịch cố đô - bảo tồn giá trị di sản - điểm dừng chân không thể thiếu của du khách - trải nghiệm nền văn hóa - lế hội - ẩm thực đặc sắc riêng biệt đậm chất cố đô  </p>
+        <p><i class="fa fa-map-pin"></i> 210, Tòa Nhà Cao Ốc, Lý Thường Kiệt, ThuaThienHue , VIETNAM</p>
+        <p><i class="fa fa-phone"></i> Phone (VietNam) : +84 234 3 870 398</p>
+        <p><i class="fa fa-envelope"></i> E-mail : info@vanhieu15i1.com</p>
+        
+      </div>
+      <div class="col-md-2 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">CHUYÊN MỤC</h6>
+        <ul class="footer-ul">
+          <li><a href="#"> Du Lịch Ẩm Thực</a></li>
+          <li><a href="#"> Điểm Đến</a></li>
+          <li><a href="#"> Du Lịch & Shopping</a></li>
+          <li><a href="#"> Điểm Đến</a></li>
+          <li><a href="#"> Khách Sạn</a></li>
+          <li><a href="#"> Khu Vui Chơi</a></li>
+          <li><a href="#"> Cẩm Nang Du Lịch</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">BÀI ĐĂNG MỚI NHẤT</h6>
+        <div class="post">
+          <p><a  href="#">Đại nội Huế chính thức đón du khách tham quan vào ban đêm</a><span>September 3,2017</span></p>
+          <p><a  href="#">Nhật Hoàng và Hoàng Hậu thưởng thức Nhã Nhạc Cung Đình Huế</a><span>June 2,2017</span></p>
+          <p><a  href="#">Du lịch Huế dịp lễ 30/4 chớ bỏ qua “Lễ hội khinh khí cầu quốc tế 2017</a> <span>March 3,2017</span></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+            <blockquote cite="https://www.facebook.com/facebook"><a href="https://www.twitter.com/twitter">Twitter</a></blockquote>
+            <blockquote cite="https://www.facebook.com/facebook"><a href="https://www.zalo.com/zalo">Zalo</a></blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--footer start from here-->
+
+<div class="copyright" style=" position: relative; bottom:-9px;" >
+  <div class="container">
+    <div class="col-md-6">
+      <p>© 2017 - All Rights with DuLichCoDo</p>
+    </div>
+    <div class="col-md-6">
+      <ul class="bottom_ul">
+        <li><a href="#">Dulichcodo.com</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Hỏi đáp</a></li>
+        <li><a href="#">Liên Hệ</a></li>
+        <li><a href="#">Site Map</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+		</div>
+
+		
+	</div>
+	<!-- Add Google Maps -->
+		
+
+
+
+				
+	<script>
+	$(document).ready(function(){
+	    /* affix the navbar after scroll below header */
+	    $(".navbar").affix({offset: {top: $("header").outerHeight(true)} });
+	});
+	</script>
+
+</body>
+
+</html>

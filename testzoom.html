@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/slider.css">
+  <link rel="shorcut icon" type="image/x-ico" href="img/logo.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- <img src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-1.jpg" class="modal-img" style="width:20%;">
+<img src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-2.jpg" class="modal-img" style="width:20%;">
+<img src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-3.jpg" class="modal-img" style="width:20%;">
+<img src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-4.jpg" class="modal-img" style="width:20%;"> -->
+
+</head>
+<body>
+ 
+
+  
+    <div class="row">
+    <div id="main">
+
+    <script type="text/javascript" src="js/jquery.cycle2.js"></script>
+    <script src="js/jquery.cycle2.carousel.js"></script>
+    <script>$.fn.cycle.defaults.autoSelector = '.slideshow';</script>
+
+    <style>
+    .slideshow { margin: auto; }
+    .slideshow img {  width: 200px;height: auto;margin-top:100px;}
+    div.responsive img { width: auto; height: auto; }
+    .cycle-pager { position: static; margin-top: 5px; }
+    div.vertical { width: 100px; }
+
+       .img{
+        
+        border: solid 1px #e8e8e8;
+        box-shadow: 0 0 10px 5px #efefef;
+        -moz-box-sizing: 0 0 10px 5px #efefef;
+        -webkit-box-shadow: 0 0 10px 5px #efefef;
+        
+        overflow: auto;
+       text-align: left;
+        margin:10px;
+        }
+
+
+     .img:hover{
+    
+             transform: scale(1.2);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+        img.im {
+  cursor: pointer;
+  transition: 0.3s;
+}
+img.im:hover {
+  opacity: 0.7;
+}
+.im {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+.im img {
+  margin: auto;
+  display: block;
+  width: 50%;
+  max-width: 50%;
+  margin-top: 100px;
+}
+.im div {
+  margin: auto;
+  display: block;
+  width: 50%;
+  max-width: 200px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px;
+    height: 150px;
+}
+.im img, .im div {
+  animation: zoom 0.6s;
+}
+.im span {
+  position: absolute;
+  top: 85px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+@media only screen and (max-width: 700px) {
+  .im img {
+    width: 50%;
+  }
+}
+@keyframes zoom {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+        </style>
+        <div class="slideshow" 
+            data-cycle-fx=carousel
+            data-cycle-timeout =1000
+
+            data-cycle-carousel-visible=6 style="margin-top:20px;" >
+            <img  class="im img "   src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-1.jpg" alt="12"  > 
+            <img  class="im img " src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-2.jpg" alt="11" >
+             <img  class="im img " src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-3.jpg" alt="10">
+                <img  class="im img" src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-4.jpg" alt="9" >
+            <img  class="im img" src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-5.jpg" alt="8">
+             <img  class="im img" src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-6.jpg" alt="7" >
+                <img  class="im img" src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-7.jpg" alt="6">
+            <img  class="im img" src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-8.jpg" alt="5">
+             <img  class="im img" src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-10.jpg" alt="4">
+            <img  class="im img" src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-9.jpg" alt="3" >
+            <img  class="im img" src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-12.jpg" alt="2">
+             <img  class="im img" src="img/ha-noi-va-hue-ve-dem-qua-ong-kinh-nhiep-anh-gia-phap-ivivu-11.jpg" alt="1" >
+        <script type="text/javascript">
+    $('img.im').each(function() {
+        var modal = $('<div class="im"><span>&times;</span><img /><div></div></div>');
+        modal.find('img').attr('src', $(this).attr('src'));
+        if($(this).attr('alt'))
+          modal.find('div').text($(this).attr('alt'));
+        $(this).after(modal);
+        modal = $(this).next();
+        $(this).click(function(event) {
+          modal.show(300);
+          modal.find('span').show(0.3);
+        });
+        modal.find('span').click(function(event) {
+          modal.hide(300);
+        });
+      });
+      $(document).keyup(function(event) {
+        if(event.which==27)
+          $('.im>span').click();
+      });
+    </script>
+    </div>
+    </div>
+</div>
+</body>
+</html>
